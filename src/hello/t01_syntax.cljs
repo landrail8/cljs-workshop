@@ -6,7 +6,7 @@
 ;; Clojure code is made of S-expressions (symbolic expressions),
 ;; symbols enclosed with parentheses.
 
-(+ 1 2) ;; <- `1 + 2` in JavaScript
+(+ 1 2 3 4) ;; <- `1 + 2` in JavaScript
 
 ;; In Lisps everything is an expression,
 ;; there's no statements in the language (like `delete` in JavaScript).
@@ -21,6 +21,8 @@
 (inc 1)
 
 ;; or a special form (syntax)
+
+(if true "true" "false")
 
 (if true "true" "false")
 
